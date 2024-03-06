@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        HTML 中的常用字符实体是不间断空格(&nbsp;)。
+        浏览器总是会截短 HTML 页面中的空格。如果您在文本中写 10 个空格，
+        在显示该页面之前，浏览器会删除它们中的 9 个。
+        如需在页面中增加空格的数量，您需要使用 &nbsp; 字符实体
+     -->
+    <font>新中地</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font>中地数码</font> <br>
+
+
+    <!-- 需求:实现 Copyright © 2004 - 2024  京东JINGDONG 版权所有  效果 -->
+
+    <!-- 实现方式一: 版权符号使用中文来展示,比较小的空格使用空格展示,比较大的空格使用&nbsp;实现 -->
+    Copyright © 2004 - 2024&nbsp;&nbsp;京东JINGDONG 版权所有 <br>
+
+    <!-- 实现方式二:版权和空格全部使用特殊字符实现 -->
+    Copyright&nbsp;&copy;&nbsp;2004&nbsp;-&nbsp;2024&nbsp;&nbsp;京东JINGDONG&nbsp;版权所有<br>
+
+    <!-- 查看京东的实现 -->
+    Copyright&nbsp;©&nbsp;2004&nbsp;-&nbsp;2024&nbsp;&nbsp;京东JINGDONG&nbsp;版权所有
+</body>
+</html>
