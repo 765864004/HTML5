@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        标签名 img
+          属性  src 定义图标的路径
+
+        路径分类
+            1,绝对路径:以盘符开头的路径
+                E:\00_特训营\day02\02_代码\img\c.jpg
+
+               弊端
+                只能通过本地方式打开,不能通过右键 open with live server打开,不推荐
+
+            2,相对路径:就是相对于当前这个html文件的路径,把路径中相同的部分去掉,剩下的就是相对路径
+                图片的绝对路径:     E:\00_特训营\day02\02_代码\img\c.jpg
+                当前html文件的路径: E:\00_特训营\day02\02_代码\07_图片标签_路径问题.html
+
+                将绝对路径中相同的部分去掉,剩下的就是相对路径 img\c.jpg
+
+     -->
+    <!-- 使用绝对路径展示:不推荐 -->
+    <!-- <img src="E:\00_特训营\day02\02_代码\img\c.jpg" alt=""> -->
+
+    <!-- 使用相对路径展示:推荐-->
+    <!-- <img src="img\c.jpg" alt=""> -->
+
+    <!-- 推荐使用./开头的方式,有路径联想 ./代表当前目录 -->
+    <img src="./img/c.jpg" alt="">
+
+    <!-- 注意点:项目所用到的所有资源:图片,音频,视频都必须放到项目里面 -->
+    <img src="../课前准备/a.jpg" alt="">
+    
+</body>
+</html>

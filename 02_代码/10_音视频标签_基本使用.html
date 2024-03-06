@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        audio 音频标签
+            src  音频文件的路径
+
+            controls	
+                controls	如果出现该属性，则向用户显示音频控件（比如播放/暂停按钮）。
+                controls 属性是一个布尔属性。如果属性存在，它指定音频控件的显示方式。
+     -->
+     <audio src="./img/audio.mp3" controls></audio> <!-- 对于布尔属性,直接给属性名就可以 -->
+
+     <!-- 
+        video 视频标签
+            src  视频文件的路径
+
+            controls	
+                controls	如果出现该属性，则向用户显示视频控件（比如播放/暂停按钮）。
+                controls 属性是一个布尔属性。如果属性存在，它指定视频控件的显示方式。
+
+            autoplay 	autoplay	如果出现该属性，则视频在就绪后马上播放。
+
+            muted	muted	如果出现该属性，视频的音频输出为静音。
+
+        注意点
+            要实现自动播放,需要加上muted静音属性
+     -->
+     <video src="./img/video.mp4" controls autoplay muted></audio> <!-- 对于布尔属性,直接给属性名就可以 -->
+</body>
+</html>
